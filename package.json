@@ -1,6 +1,6 @@
 {
   "name": "atonic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "remove diacritics from strings",
   "main": "./lib/index.js",
   "scripts": {
