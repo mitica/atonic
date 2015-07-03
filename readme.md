@@ -1,6 +1,6 @@
 # atonic
 
-Remove diacritics/accents from a string. Works for LATIN and CYRILLYC scripts.
+Remove diacritics from strings. Works for LATIN and CYRILLIC scripts.
 
 ## Usage
 
@@ -18,8 +18,8 @@ atonic.lowerCase('ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑ
 atonic.latin('ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ӴӵӶӷӸӹӺӻӼӽӾӿЀ');
 // out: AAAAAAAECEEEEIIII-Internationaliza-ӴӵӶӷӸӹӺӻӼӽӾӿЀ
 
-// convert only CYRILLYC chars:
-atonic.cyrillyc('ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ӴӵӶӷӸӹӺӻӼӽӾӿЀ');
+// convert only CYRILLIC chars:
+atonic.cyrillic('ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ӴӵӶӷӸӹӺӻӼӽӾӿЀ');
 // out: ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ЧчГгЫыГгХхХхЕ
 
 ```

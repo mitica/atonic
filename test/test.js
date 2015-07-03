@@ -23,8 +23,8 @@ describe('default', function() {
   it('atonic.latinUpperCase("")', function() {
     assert.equal('AAAAAAAECEEEEIIII', atonic.latin("ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ"));
   });
-  it('atonic.cyrillyc("")', function() {
-    assert.equal('ЕЕГГгҔҕЖжЗзкКк', atonic.cyrillyc("ЀЁЃҒғҔҕҖҗҘҙҝҞҟ"));
-    assert.equal('ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ЧчГгЫыГгХхХхЕ', atonic.cyrillyc("ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ӴӵӶӷӸӹӺӻӼӽӾӿЀ"));
+  it('atonic.cyrillic("")', function() {
+    assert.equal('ЕЕГГгҔҕЖжЗзкКк', atonic.cyrillic("ЀЁЃҒғҔҕҖҗҘҙҝҞҟ"));
+    assert.equal('ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ЧчГгЫыГгХхХхЕ', atonic.cyrillic("ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏ-Iлｔèｒｎåｔïｏｎɑｌíƶａ-ӴӵӶӷӸӹӺӻӼӽӾӿЀ"));
   });
 });
