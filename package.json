@@ -1,6 +1,6 @@
 {
   "name": "atonic",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "remove diacritics from strings",
   "main": "./lib/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/entipic/atonic.git"
+    "url": "https://github.com/Mitica/atonic.git"
   },
   "keywords": [
     "atonic",
@@ -23,9 +23,9 @@
   "author": "Dumitru Cantea",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/entipic/atonic/issues"
+    "url": "https://github.com/Mitica/atonic/issues"
   },
-  "homepage": "https://github.com/entipic/atonic",
+  "homepage": "https://github.com/Mitica/atonic",
   "devDependencies": {
     "mocha": "^2.2.5",
     "chai": "^3.0.0"
